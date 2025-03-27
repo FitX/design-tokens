@@ -6,6 +6,9 @@
     "build",
     "tokens"
   ],
+  "exports": {
+    "./**/*": "./build/fitx/**/*"
+  },
   "scripts": {
     "build-tokens": "style-dictionary build --config ./sd.config.js",
     "format": "prettier --write sd.config.js src"
