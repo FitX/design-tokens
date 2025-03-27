@@ -1,13 +1,14 @@
 {
-  "name": "fitx-dtcg",
+  "name": "@fitx/design-tokens",
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "build",
+    "tokens"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
     "build-tokens": "style-dictionary build --config ./sd.config.js",
-    "format": "prettier --write sd.config.js src",
-    "preview": "vite preview"
+    "format": "prettier --write sd.config.js src"
   },
   "devDependencies": {
     "prettier": "3.5.3",
