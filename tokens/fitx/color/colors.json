@@ -1,10 +1,4 @@
 {
-  "foo": {
-    "bar": {
-          "$value": "#181d1e",
-          "$type": "color"
-    }
-  },
   "color": {
     "brand": {
       "anthracite": {
