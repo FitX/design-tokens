@@ -1,0 +1,74 @@
+{
+  "foo": {
+    "bar": {
+          "$value": "#181d1e",
+          "$type": "color"
+    }
+  },
+  "color": {
+    "brand": {
+      "anthracite": {
+        "0": { "$value": "#181d1e", "$type": "color" },
+        "1": { "$value": "#1c2223", "$type": "color" },
+        "2": { "$value": "#262b2c", "$type": "color" },
+        "3": { "$value": "#2d3132", "$type": "color" },
+        "4": { "$value": "#303a3d", "$type": "color" },
+        "5": { "$value": "#33454f", "$type": "color" },
+        "6": { "$value": "#647a84", "$type": "color" }
+      },
+      "blue": { "$value": "#24353f", "$type": "color" },
+      "orange": {
+        "0": { "$value": "#ed6a12", "$type": "color" },
+        "1": { "$value": "#f18841", "$type": "color" },
+        "2": { "$value": "#f6ac6f", "$type": "color" },
+        "3": { "$value": "#f8ede6", "$type": "color" }
+      },
+      "white": {
+        "0": { "$value": "#ffffff", "$type": "color" },
+        "1": { "$value": "#f4f2ef", "$type": "color" },
+        "2": { "$value": "#ebeae8", "$type": "color" }
+      },
+      "gray": {
+        "$description": "Gray Tones, main usage for forms",
+        "coal": { "$value": "#363636", "$type": "color" },
+        "carbon": { "$value": "#444444", "$type": "color" },
+        "graphite": { "$value": "#717171", "$type": "color" },
+        "cement": { "$value": "#999999", "$type": "color" },
+        "stone": { "$value": "#b5b5b5", "$type": "color" },
+        "silver": { "$value": "#c0c0c0", "$type": "color" },
+        "steel": { "$value": "#cccccc", "$type": "color" },
+        "plumb": { "$value": "#dddddd", "$type": "color" },
+        "ash": { "$value": "#e5e5e5", "$type": "color" },
+        "smoke": { "$value": "#eeeeee", "$type": "color" },
+        "chalk": { "$value": "#f5f5f5", "$type": "color" }
+      }
+    },
+    "primary": {
+      "$description": "Alias Names for Styleguide",
+      "brand": {
+        "anthracite": { "$value": "{color.brand.anthracite.0}" },
+        "blue": { "$value": "{color.brand.blue}" },
+        "orange": { "$value": "{color.brand.orange.0}" },
+        "white": { "$value": "{color.brand.white.0}" }
+      }
+    },
+    "functional": {
+      "$description": "Functional Colors",
+      "success": {
+        "0": { "$value": "#27ae60", "$type": "color" },
+        "1-light": { "$value": "#d4efdf", "$type": "color" },
+        "1-dark": { "$value": "#1b3b2b", "$type": "color" }
+      },
+      "attention": {
+        "0": { "$value": "#f5a323", "$type": "color" },
+        "1-light": { "$value": "#fdeddd", "$type": "color" },
+        "1-dark": { "$value": "#2e2a1e", "$type": "color" }
+      },
+      "error": {
+        "0": { "$value": "#e83623", "$type": "color" },
+        "1-light": { "$value": "#fef5f4", "$type": "color" },
+        "1-dark": { "$value": "#40221f", "$type": "color" }
+      }
+    }
+  }
+}
