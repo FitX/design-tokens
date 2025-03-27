@@ -25,6 +25,14 @@ Füge diesen Abschnitt einfach an der gewünschten Stelle in deine README ein.
 npm install @fitx/design-tokens
 ```
 
+```css
+@import '@fitx/design-tokens/styles/color.css' layer(fitx-tokens);
+```
+
+```js
+import '@fitx/design-tokens/tokens.js';
+```
+
 **Use Tokens ins Figma:**
 Install Figma Plugin like [Variables Import](https://www.figma.com/community/plugin/1253424530216967528/variables-import) 
 by [microsoft](https://github.com/microsoft/figma-variables-import) and import tokens.json.
